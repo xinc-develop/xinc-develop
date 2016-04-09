@@ -1,5 +1,6 @@
 {
     "require": {
+        "xinc/core": "dev-master",
         "xinc/server": "dev-master",
         "xinc/svn": "dev-master"
     }
