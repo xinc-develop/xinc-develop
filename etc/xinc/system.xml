@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xinc>
+    <configuration>
+        <setting name="verbose" value="0"/>
+    </configuration>
+    <engines>
+        <engine class="Xinc\Server\Engine\Sunrise" default="default"/>
+    </engines>
+</xinc>
