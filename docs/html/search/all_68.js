@@ -5,5 +5,6 @@ var searchData=
   ['hasdefaultvalue',['hasDefaultValue',['../classXinc_1_1Getopt_1_1Argument.html#a47cad3ed2d2aa1c50ea23439ddc182eb',1,'Xinc::Getopt::Argument']]],
   ['hasexceptionhandler',['hasExceptionHandler',['../classXinc_1_1Core_1_1Gui_1_1Gui.html#a9fbd993d9a4eb9f6dbf82ec57fd201a8',1,'Xinc\Core\Gui\Gui\hasExceptionHandler()'],['../interfaceXinc_1_1Core_1_1Gui_1_1WidgetInterface.html#a453dacb56347499998a27633f6235047',1,'Xinc\Core\Gui\WidgetInterface\hasExceptionHandler()']]],
   ['hasnext',['hasNext',['../classXinc_1_1Core_1_1Iterator.html#ab281e76d030ed7f45373400235ee0b20',1,'Xinc::Core::Iterator']]],
-  ['hasvalidation',['hasValidation',['../classXinc_1_1Getopt_1_1Argument.html#ad86daaa9623debb0dcecc519143c1032',1,'Xinc::Getopt::Argument']]]
+  ['hasvalidation',['hasValidation',['../classXinc_1_1Getopt_1_1Argument.html#ad86daaa9623debb0dcecc519143c1032',1,'Xinc::Getopt::Argument']]],
+  ['history',['History',['../classXinc_1_1Server_1_1Engine_1_1Sunrise_1_1History.html',1,'Xinc::Server::Engine::Sunrise']]]
 ];

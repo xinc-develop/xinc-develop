@@ -9,9 +9,10 @@ var searchData=
   ['invalidentryexception',['InvalidEntryException',['../classXinc_1_1Core_1_1Project_1_1Config_1_1Exception_1_1InvalidEntryException.html',1,'Xinc::Core::Project::Config::Exception']]],
   ['ioexception',['IOException',['../classXinc_1_1Core_1_1Exception_1_1IOException.html',1,'Xinc::Core::Exception']]],
   ['ischanged',['isChanged',['../classXinc_1_1Core_1_1Plugin_1_1ModificationSet_1_1Result.html#a1c1c9626dd51b2ca71e43465a17717a7',1,'Xinc::Core::Plugin::ModificationSet::Result']]],
+  ['isfinished',['isFinished',['../classXinc_1_1Core_1_1Build_1_1Build.html#acdfd4197d41a6432d93464437d0a8bd7',1,'Xinc\Core\Build\Build\isFinished()'],['../interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a503bf9f171ea78441c9310987ce2c811',1,'Xinc\Core\Build\BuildInterface\isFinished()']]],
   ['isqueued',['isQueued',['../classXinc_1_1Core_1_1Build_1_1Build.html#a14adfca9f531bd698e0c07bde3fcc2a6',1,'Xinc::Core::Build::Build']]],
   ['iterator',['Iterator',['../classXinc_1_1Core_1_1Project_1_1Iterator.html',1,'Xinc::Core::Project']]],
   ['iterator',['Iterator',['../classXinc_1_1Core_1_1Project_1_1Config_1_1Iterator.html',1,'Xinc::Core::Project::Config']]],
-  ['iterator',['Iterator',['../classXinc_1_1Core_1_1Task_1_1Iterator.html',1,'Xinc::Core::Task']]],
-  ['iterator',['Iterator',['../classXinc_1_1Core_1_1Iterator.html',1,'Xinc::Core']]]
+  ['iterator',['Iterator',['../classXinc_1_1Core_1_1Iterator.html',1,'Xinc::Core']]],
+  ['iterator',['Iterator',['../classXinc_1_1Core_1_1Task_1_1Iterator.html',1,'Xinc::Core::Task']]]
 ];

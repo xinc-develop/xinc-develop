@@ -6,10 +6,11 @@ var searchData=
   ['settask',['SetTask',['../classXinc_1_1Core_1_1Plugin_1_1Property_1_1SetTask.html',1,'Xinc::Core::Plugin::Property']]],
   ['setterinterface',['SetterInterface',['../interfaceXinc_1_1Core_1_1Task_1_1SetterInterface.html',1,'Xinc::Core::Task']]],
   ['settingtask',['SettingTask',['../classXinc_1_1Core_1_1Plugin_1_1Configuration_1_1SettingTask.html',1,'Xinc::Core::Plugin::Configuration']]],
-  ['singleton',['Singleton',['../classXinc_1_1Core_1_1Singleton.html',1,'Xinc::Core']]],
   ['singleton',['Singleton',['../classXinc_1_1Core_1_1Test_1_1Singleton.html',1,'Xinc::Core::Test']]],
+  ['singleton',['Singleton',['../classXinc_1_1Core_1_1Singleton.html',1,'Xinc::Core']]],
   ['slot',['Slot',['../classXinc_1_1Core_1_1Task_1_1Slot.html',1,'Xinc::Core::Task']]],
   ['statistics',['Statistics',['../classXinc_1_1Core_1_1Build_1_1Statistics.html',1,'Xinc::Core::Build']]],
   ['status',['Status',['../classXinc_1_1Core_1_1Project_1_1Status.html',1,'Xinc::Core::Project']]],
-  ['substitutetask',['SubstituteTask',['../classXinc_1_1Core_1_1Plugin_1_1Property_1_1SubstituteTask.html',1,'Xinc::Core::Plugin::Property']]]
+  ['substitutetask',['SubstituteTask',['../classXinc_1_1Core_1_1Plugin_1_1Property_1_1SubstituteTask.html',1,'Xinc::Core::Plugin::Property']]],
+  ['sunrise',['Sunrise',['../classXinc_1_1Server_1_1Engine_1_1Sunrise.html',1,'Xinc::Server::Engine']]]
 ];

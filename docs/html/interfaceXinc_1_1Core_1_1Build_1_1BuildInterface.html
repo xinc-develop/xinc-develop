@@ -117,6 +117,10 @@ Inheritance diagram for Xinc\Core\Build\BuildInterface:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a26f9c34a5604a362cdfa8d1236b16c9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a26f9c34a5604a362cdfa8d1236b16c9b">__construct</a> (<a class="el" href="interfaceXinc_1_1Core_1_1Engine_1_1EngineInterface.html">EngineInterface</a> $engine, <a class="el" href="classXinc_1_1Core_1_1Project_1_1Project.html">Project</a> $project, $buildTimestamp=null)</td></tr>
 <tr class="separator:a26f9c34a5604a362cdfa8d1236b16c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78cad3f5b0ea5a2848f7eba9ad301a48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a78cad3f5b0ea5a2848f7eba9ad301a48">getStatus</a> ()</td></tr>
+<tr class="separator:a78cad3f5b0ea5a2848f7eba9ad301a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65aec1e722eb9c010df5ab67f2a845de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a65aec1e722eb9c010df5ab67f2a845de">getStatusString</a> ()</td></tr>
+<tr class="separator:a65aec1e722eb9c010df5ab67f2a845de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef03733bc56d7fba52f81faa7fe9e247"><td class="memItemLeft" align="right" valign="top">Xinc_Build_Interface&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#aef03733bc56d7fba52f81faa7fe9e247">getLastBuild</a> ()</td></tr>
 <tr class="separator:aef03733bc56d7fba52f81faa7fe9e247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3abf6139a08a7b088277ecb06c8b9173"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a3abf6139a08a7b088277ecb06c8b9173">setLastBuild</a> ()</td></tr>
@@ -131,6 +135,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a28b1c0e16a8fbeba24bbd96462dadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c9b9458ca0aaf1b5b81e6a0ed33156"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#ae4c9b9458ca0aaf1b5b81e6a0ed33156">init</a> ()</td></tr>
 <tr class="separator:ae4c9b9458ca0aaf1b5b81e6a0ed33156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503bf9f171ea78441c9310987ce2c811"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a503bf9f171ea78441c9310987ce2c811">isFinished</a> ()</td></tr>
+<tr class="separator:a503bf9f171ea78441c9310987ce2c811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae396437cc6dc9553fd4da3531613f93d"><td class="memItemLeft" align="right" valign="top">Xinc_Build_Statistics&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#ae396437cc6dc9553fd4da3531613f93d">getStatistics</a> ()</td></tr>
 <tr class="separator:ae396437cc6dc9553fd4da3531613f93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf9fe7350418ee8ecd67709ec8732c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#aadf9fe7350418ee8ecd67709ec8732c6">setBuildTime</a> ($buildTime)</td></tr>
@@ -162,13 +168,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a57d68cfdf02c93623141b896036c885b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57d68cfdf02c93623141b896036c885b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>debug</b> ($message)</td></tr>
 <tr class="separator:a57d68cfdf02c93623141b896036c885b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2718bbaeeeaec9318716b0ffcf1c6a84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a2718bbaeeeaec9318716b0ffcf1c6a84">setConfigDirective</a> ($name, $value)</td></tr>
-<tr class="separator:a2718bbaeeeaec9318716b0ffcf1c6a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab668538ed2539374e4f2183035bb5a16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab668538ed2539374e4f2183035bb5a16"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>resetConfigDirective</b> ()</td></tr>
-<tr class="separator:ab668538ed2539374e4f2183035bb5a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0437374ee21ea5b9200fb5222ce9164d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html#a0437374ee21ea5b9200fb5222ce9164d">getConfigDirective</a> ($name)</td></tr>
-<tr class="separator:a0437374ee21ea5b9200fb5222ce9164d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interfaceXinc_1_1Core_1_1Task_1_1TaskRegistryInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceXinc_1_1Core_1_1Task_1_1TaskRegistryInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interfaceXinc_1_1Core_1_1Task_1_1TaskRegistryInterface.html">Xinc\Core\Task\TaskRegistryInterface</a></td></tr>
 <tr class="memitem:aa1f2ac5cd76db623f35ffde9e8fa1130 inherit pub_methods_interfaceXinc_1_1Core_1_1Task_1_1TaskRegistryInterface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1f2ac5cd76db623f35ffde9e8fa1130"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>setTaskRegistry</b> (<a class="el" href="classXinc_1_1Core_1_1Task_1_1TaskRegistry.html">TaskRegistry</a> $reg)</td></tr>
@@ -261,30 +260,6 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>MISCONFIGURED</b> = 
 <p><a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html">Build</a>. </p>
 
 <p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#a43e8c6962f5e153ae13982561573fe81">Xinc\Core\Build\Build</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0437374ee21ea5b9200fb5222ce9164d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Xinc\Core\Build\BuildInterface::getConfigDirective </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#a89365bc6d2fb7f2ee18b651505da2a53">Xinc\Core\Build\Build</a>.</p>
 
 </div>
 </div>
@@ -382,6 +357,42 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>MISCONFIGURED</b> = 
 
 </div>
 </div>
+<a class="anchor" id="a78cad3f5b0ea5a2848f7eba9ad301a48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Xinc\Core\Build\BuildInterface::getStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the status of the build </p>
+
+<p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#a8a7e2f680ceb0dae47e2b852adf84ea3">Xinc\Core\Build\Build</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65aec1e722eb9c010df5ab67f2a845de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Xinc\Core\Build\BuildInterface::getStatusString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the status of the build as a word. </p>
+
+<p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#ac6fb0e49bab090c62f8219155a14bc3a">Xinc\Core\Build\Build</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a73ea71691e7f22adbf2f15fddb169c30"></a>
 <div class="memitem">
 <div class="memproto">
@@ -440,6 +451,24 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>MISCONFIGURED</b> = 
 <p>called before a new build is executed. </p>
 
 <p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#aa5562bb9ff20172cb2b86f9455ebca28">Xinc\Core\Build\Build</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a503bf9f171ea78441c9310987ce2c811"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Xinc\Core\Build\BuildInterface::isFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Check if the build is in a final state. return boolean </p>
+
+<p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#acdfd4197d41a6432d93464437d0a8bd7">Xinc\Core\Build\Build</a>.</p>
 
 </div>
 </div>
@@ -530,42 +559,6 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>MISCONFIGURED</b> = 
 
 </div>
 </div>
-<a class="anchor" id="a2718bbaeeeaec9318716b0ffcf1c6a84"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Xinc\Core\Build\BuildInterface::setConfigDirective </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Sets custom config value for the current build.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$value</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classXinc_1_1Core_1_1Build_1_1Build.html#a1366256380f0ddd2b4b4bad838a6e042">Xinc\Core\Build\Build</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a3abf6139a08a7b088277ecb06c8b9173"></a>
 <div class="memitem">
 <div class="memproto">
@@ -651,7 +644,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>MISCONFIGURED</b> = 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 9 2016 21:00:53 for Xinc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 16 2016 16:29:28 for Xinc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.3.1
 </small></address>

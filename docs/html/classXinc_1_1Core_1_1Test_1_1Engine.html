@@ -123,10 +123,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae570cbcf47a10a5859d8e2c9099cacde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37015041336b3bdb1dd925f693e390a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceXinc_1_1Core_1_1Build_1_1BuildInterface.html">BuildInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXinc_1_1Core_1_1Test_1_1Engine.html#a37015041336b3bdb1dd925f693e390a2">setupBuild</a> (<a class="el" href="classXinc_1_1Core_1_1Project_1_1Project.html">Project</a> $project)</td></tr>
 <tr class="separator:a37015041336b3bdb1dd925f693e390a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a718e67635f4acedb5e90bd459ffc5e96"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXinc_1_1Core_1_1Test_1_1Engine.html#a718e67635f4acedb5e90bd459ffc5e96">getHeartBeat</a> ()</td></tr>
-<tr class="separator:a718e67635f4acedb5e90bd459ffc5e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f0482ce1a3c95bb0c5b539315b4858"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXinc_1_1Core_1_1Test_1_1Engine.html#a26f0482ce1a3c95bb0c5b539315b4858">setHeartBeat</a> ($seconds)</td></tr>
-<tr class="separator:a26f0482ce1a3c95bb0c5b539315b4858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classXinc_1_1Core_1_1Engine_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classXinc_1_1Core_1_1Engine_1_1Base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classXinc_1_1Core_1_1Engine_1_1Base.html">Xinc\Core\Engine\Base</a></td></tr>
 <tr class="memitem:a9e3ece20b75b56e9ded1b81808693a5a inherit pub_methods_classXinc_1_1Core_1_1Engine_1_1Base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXinc_1_1Core_1_1Logger.html">Xinc::Core::Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXinc_1_1Core_1_1Engine_1_1Base.html#a9e3ece20b75b56e9ded1b81808693a5a">getLogger</a> ()</td></tr>
 <tr class="separator:a9e3ece20b75b56e9ded1b81808693a5a inherit pub_methods_classXinc_1_1Core_1_1Engine_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,25 +169,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a718e67635f4acedb5e90bd459ffc5e96"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Xinc\Core\Test\Engine::getHeartBeat </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>returns the interval in seconds in which the engine checks for new builds.</p>
-<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
-
-<p>Implements <a class="el" href="interfaceXinc_1_1Core_1_1Engine_1_1EngineInterface.html#ac1090eed1995e8cdf06ae9beb9a3296e">Xinc\Core\Engine\EngineInterface</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a97bfa549935e747f991ef7c5911b7d3b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -208,32 +185,6 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>string Name of the engine. </dd></dl>
 
 <p>Implements <a class="el" href="interfaceXinc_1_1Core_1_1Engine_1_1EngineInterface.html#adf8ef51062c091c06b739b271ee52822">Xinc\Core\Engine\EngineInterface</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a26f0482ce1a3c95bb0c5b539315b4858"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Xinc\Core\Test\Engine::setHeartBeat </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$seconds</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Set the interval in which the engine checks for modified builds, necessary builds etc.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$seconds</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See Also</dt><dd>&lt;xinc engine="name" heartbeat="10"&gt; </dd></dl>
-
-<p>Implements <a class="el" href="interfaceXinc_1_1Core_1_1Engine_1_1EngineInterface.html#aca975760edd45c2a279a2ac385aceac4">Xinc\Core\Engine\EngineInterface</a>.</p>
 
 </div>
 </div>
@@ -269,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 9 2016 21:00:55 for Xinc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 16 2016 16:29:31 for Xinc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.3.1
 </small></address>
