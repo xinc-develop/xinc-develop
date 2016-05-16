@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xinc>
+    <engines>
+        <engine class="Xinc\Server\Engine\Sunrise" default="default"/>
+        <engine class="Xinc\Server\Engine\Mint"/>
+    </engines>
+</xinc>

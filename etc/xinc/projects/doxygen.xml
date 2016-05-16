@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xinc>
-<project name="Doxygen">
+<project name="Doxygen" engine="Mint">
     <builders>
         <process></process>
     </builders>
