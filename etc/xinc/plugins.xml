@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <xinc>
 <plugins group="Xinc\Core\Plugin\Group"/>
+<plugins group="Xinc\Plugin\Monitor\Group"/>
 </xinc>
 

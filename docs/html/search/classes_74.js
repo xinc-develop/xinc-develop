@@ -1,14 +1,14 @@
 var searchData=
 [
   ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Schedule_1_1Task.html',1,'Xinc::Core::Plugin::Schedule']]],
-  ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Builder_1_1Task.html',1,'Xinc::Core::Plugin::Builder']]],
-  ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Publisher_1_1Task.html',1,'Xinc::Core::Plugin::Publisher']]],
   ['task',['Task',['../classXinc_1_1Plugin_1_1Svn_1_1ModificationSet_1_1Task.html',1,'Xinc::Plugin::Svn::ModificationSet']]],
   ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Configuration_1_1Task.html',1,'Xinc::Core::Plugin::Configuration']]],
+  ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Builder_1_1Task.html',1,'Xinc::Core::Plugin::Builder']]],
+  ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1Publisher_1_1Task.html',1,'Xinc::Core::Plugin::Publisher']]],
   ['task',['Task',['../classXinc_1_1Core_1_1Plugin_1_1ModificationSet_1_1Task.html',1,'Xinc::Core::Plugin::ModificationSet']]],
   ['taskinterface',['TaskInterface',['../interfaceXinc_1_1Core_1_1Task_1_1TaskInterface.html',1,'Xinc::Core::Task']]],
-  ['taskregistry',['TaskRegistry',['../classXinc_1_1Core_1_1Task_1_1TaskRegistry.html',1,'Xinc::Core::Task']]],
   ['taskregistry',['TaskRegistry',['../classXinc_1_1Core_1_1Traits_1_1TaskRegistry.html',1,'Xinc::Core::Traits']]],
+  ['taskregistry',['TaskRegistry',['../classXinc_1_1Core_1_1Task_1_1TaskRegistry.html',1,'Xinc::Core::Task']]],
   ['taskregistry',['TaskRegistry',['../classXinc_1_1Core_1_1Build_1_1TaskRegistry.html',1,'Xinc::Core::Build']]],
   ['taskregistryinterface',['TaskRegistryInterface',['../interfaceXinc_1_1Core_1_1Task_1_1TaskRegistryInterface.html',1,'Xinc::Core::Task']]],
   ['testbuild',['TestBuild',['../classTestBuild.html',1,'']]],

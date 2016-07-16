@@ -1,8 +1,15 @@
 <?xml version="1.0"?>
 <xinc>
 <project name="Doxygen" engine="Mint">
+    <schedule interval="30"/>
+    <modificationset>
+        <monitor>
+            <dir path="vendor/xinc"/>
+            <file path="Doxyfile"/>
+        </monitor>
+    </modificationset>
     <builders>
-        <process></process>
+        <process command="doxygen"/>
     </builders>
 </project>
 </xinc>
